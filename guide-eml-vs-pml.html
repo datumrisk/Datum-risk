@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EML vs PML — Datum Guides</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="wordmark" href="../"><b>DATUM</b> RISK ENGINEERING</a>
+  <div class="nav-links">
+    <a href="../">Home</a>
+    <a href="index.html" class="active">Guides</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+  </div>
+</nav>
+
+<article class="report">
+  <div class="report-head">
+    <p class="report-code">DR&ndash;2026&ndash;014 &nbsp;·&nbsp; PROPERTY &nbsp;·&nbsp; EXPOSURE ASSESSMENT</p>
+    <h1>EML vs PML: where risk engineers and underwriters talk past each other</h1>
+    <div class="report-meta">
+      <span>Published Aug 2026</span>
+      <span>7 min read</span>
+    </div>
+  </div>
+
+  <div class="report-body">
+    <aside class="rail">
+      <div class="note">Applies to single-site HPR property risks</div>
+      <div class="note">Assumes a working knowledge of fire spread modelling</div>
+      <div class="note">See also: DR&ndash;2026&ndash;015</div>
+    </aside>
+
+    <div class="content">
+      <h2>The core confusion</h2>
+      <p>Estimated Maximum Loss and Probable Maximum Loss get used almost interchangeably in broker submissions, but they answer different questions. EML asks what the worst credible loss looks like if every passive protection feature performs as designed and active suppression fails. PML asks a narrower, more pessimistic question: what happens if the protection systems that are supposed to contain the loss don't work at all.</p>
+      <p>The gap between the two figures isn't an error — it's the entire point. A risk with strong compartmentation but an ageing sprinkler system can show a modest EML and a dramatically higher PML, and that spread is itself a signal about where the exposure actually sits.</p>
+
+      <h2>Where this trips people up in practice</h2>
+      <p>Brokers sometimes present the lower of the two figures as "the number," particularly when a client's risk improvement plan is still mid-implementation. That's understandable commercially, but it obscures the thing underwriters actually need to price: not the optimistic case, but the credible range and what's driving the width of it.</p>
+      <div class="callout">A wide EML–PML spread is rarely resolved by more narrative in the submission. It's resolved by evidence — inspection dates, impairment history, and whether protection systems have actually been tested under the conditions the model assumes.</div>
+
+      <h2>What a defensible EML position actually needs</h2>
+      <ul>
+        <li>A stated fire scenario, not just a percentage of total insured value</li>
+        <li>Explicit assumptions about compartmentation performance and fire service response time</li>
+        <li>A clear statement of what protection features the figure assumes are operational</li>
+        <li>Sensitivity to what changes if one of those assumptions fails</li>
+      </ul>
+
+      <h2>The practical takeaway</h2>
+      <p>Treat EML and PML as a pair, not a choice. When they're close together, protection is doing real work and the risk is well understood. When they diverge sharply, that gap is the underwriting conversation — not a detail to smooth over in the submission.</p>
+    </div>
+  </div>
+</article>
+
+<footer>
+  <p class="copyright">&copy; <span id="copyright-year"></span> Datum Risk Engineering. All rights reserved.</p>
+  <p class="disclaimer">Content is provided for general information and professional development purposes only. It does not constitute engineering, underwriting, or legal advice, and should not be relied upon as a substitute for a site-specific survey or professional assessment. No liability is accepted for actions taken on the basis of this content.</p>
+</footer>
+
+<script>document.getElementById("copyright-year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

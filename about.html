@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Datum Risk Engineering</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .about-wrap{ max-width:700px; margin:0 auto; padding:64px 32px 100px; }
+  .about-wrap h1{
+    font-family:var(--serif); font-size:clamp(28px,4vw,36px);
+    color:var(--ink); margin:0 0 24px;
+  }
+  .about-wrap h2{
+    font-family:var(--serif); font-size:20px; font-weight:600;
+    color:var(--ink); margin:36px 0 12px;
+  }
+  .about-wrap p{ font-size:15.5px; margin:0 0 16px; max-width:62ch; }
+  .about-wrap ul{ margin:0 0 16px; padding-left:20px; }
+  .about-wrap li{ font-size:15.5px; margin-bottom:8px; }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="wordmark" href="/"><b>DATUM</b> RISK ENGINEERING</a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="guides/index.html">Guides</a>
+    <a href="about.html" class="active">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<main class="about-wrap">
+  <h1>About Datum</h1>
+
+  <p>Datum Risk Engineering is a reference resource on property risk — written for brokers, underwriters, and risk practitioners who want the reasoning behind a position, not just the definition of a term.</p>
+
+  <p>The guides here are written by a working risk engineer with experience across HPR property surveys and London Market submissions. Content is published independently of any single employer or carrier, and reflects patterns and judgment calls observed across real assessments, not a textbook restatement of standards.</p>
+
+  <h2>What you'll find here</h2>
+  <ul>
+    <li>Working notes on exposure assessment — EML, PML, and MFL, and where they diverge in practice</li>
+    <li>What actually gets flagged in HPR surveys, and what tends to be over-worried about</li>
+    <li>Practical guidance on management controls — permits, protection systems, and the gaps between a compliant system on paper and a protected risk in reality</li>
+    <li>Downloadable reference forms and checklists, built to be adapted to a specific site rather than used as-is</li>
+  </ul>
+
+  <h2>What this isn't</h2>
+  <p>Nothing published here is engineering, underwriting, or legal advice, and none of it substitutes for a site-specific survey or professional assessment. It's intended as a starting point for thinking clearly about a risk — not a final answer for any individual one.</p>
+
+  <h2>Get in touch</h2>
+  <p>Questions, corrections, or enquiries about advisory work are welcome via the <a href="contact.html" style="color:var(--amber);">contact page</a>.</p>
+</main>
+
+<footer>
+  <p class="copyright">&copy; <span id="copyright-year"></span> Datum Risk Engineering. All rights reserved.</p>
+  <p class="disclaimer">Content is provided for general information and professional development purposes only. It does not constitute engineering, underwriting, or legal advice, and should not be relied upon as a substitute for a site-specific survey or professional assessment. No liability is accepted for actions taken on the basis of this content.</p>
+</footer>
+
+<script>document.getElementById("copyright-year").textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
